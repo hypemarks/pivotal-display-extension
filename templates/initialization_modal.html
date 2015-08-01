@@ -1,0 +1,39 @@
+<div class="modal fade initialization-modal" data-backdrop="static">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Setup your Pivotal Account</h3>
+            </div>
+            <div class="modal-body">
+                <p>
+                    <b>Step 1</b>: Go to your <a href="https://www.pivotaltracker.com/profile" target="_blank">Pivotal Settings</a> and grab your API Token
+                </p>
+                <img src="/assets/api_token_image.png" />
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="pivotal_token" class="col-sm-2 control-label">API Token</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="pivotal_token" placeholder="Pivotal Token">
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <p>
+                    <b>Step 2</b>: Go to your <a href="https://www.pivotaltracker.com" target="_blank">Pivotal Project</a> and grab your Pivotal Project ID from the URL
+                </p>
+                <img src="/assets/pivotal_project_id.png" />
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="pivotal_project" class="col-sm-2 control-label">Project ID</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="pivotal_project" placeholder="Pivotal Project ID">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary save-pivotal-token">Save Pivotal Settings</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "version": "2",
+  "name": "Pivotal Visualizer",
+  "description": "Easy visualization for pivotal epics",
+  "permissions": ["storage"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwhGKZ4KMgoHDmBGs+BrYueDkiiPAt7QjHbcxeNs3JBaPah/nNsz8e4E38TeEKNyHg+0DoVQlV6gvmuXy/bAbpCBSk3/y+/J5TFCjSgVLhm7nQPeE3RIR2/kVZIaY1YIabxqdC4N0RmAef+EBR+WB4RqFsV78TpzgpNqDinkhfPwIDAQAB"
+}
